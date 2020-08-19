@@ -1,0 +1,23 @@
+{
+    "name": "ramylson/notification",
+    "description": "This is a library that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramylson A. Costa",
+            "email": "ramylsondacosta@gmail.com",
+            "homepage": "https://www.digitalmil.com.br/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\":"_app"
+        }
+    }
+}
